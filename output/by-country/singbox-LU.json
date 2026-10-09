@@ -4,15 +4,18 @@
   },
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "8.6.112.9",
+      "type": "trojan",
+      "tag": "🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe",
+      "server": "188.42.145.180",
       "server_port": 443,
-      "uuid": "11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf",
+      "password": "humanity",
       "tls": {
         "enabled": true,
-        "server_name": "ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV",
+        "server_name": "www.volumeroot.com",
         "insecure": false,
+        "alpn": [
+          "v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus--v2rayNplus"
+        ],
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -20,9 +23,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0",
+        "path": "/assignment",
         "headers": {
-          "Host": "ancient-heart-60c5.dpccgizieb.workers.dev"
+          "Host": "www.volumeroot.com"
         }
       }
     },
@@ -31,14 +34,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇱🇺 卢森堡 (Luxembourg) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

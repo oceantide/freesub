@@ -5,55 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
-  server: 172.66.44.211
-  port: 2083
-  udp: true
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  tls: true
-  servername: wk1.f1w.de5.net
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: wk1.f1w.de5.net
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  server: 45.130.125.126
-  port: 443
-  udp: true
-  type: vless
-  uuid: b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9
-  tls: true
-  servername: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0
-    headers:
-      Host: BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  server: 194.87.68.140
-  port: 50660
-  udp: true
-  type: ss
-  cipher: aes-256-gcm
-  password: 81a20429165df87e
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  server: 130.49.189.158
-  port: 43558
-  udp: true
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: eicdhshSrFLCx/sZ1PSpuKyoVWGZpU95tFS4iGC1c04=
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   server: 194.38.11.86
   port: 65443
   udp: true
   type: ss
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
+- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
+  server: 139.28.168.126
+  port: 8080
+  udp: true
+  type: hysteria2
+  password: we_9m92rJZ93_m9Cj3KXB_mC9AS7Nx
+  sni: hopp-honkong-new.roxa.org
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -61,9 +26,6 @@ proxy-groups:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -71,8 +33,5 @@ proxy-groups:
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
 rules:
 - MATCH,PROXIES
