@@ -4,18 +4,15 @@
   },
   "outbounds": [
     {
-      "type": "trojan",
-      "tag": "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe",
-      "server": "151.101.38.6",
+      "type": "vless",
+      "tag": "🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe",
+      "server": "104.24.31.89",
       "server_port": 443,
-      "password": "mitivpn",
+      "uuid": "aebe5a70-0ca3-46ce-8208-8b5bab1346ce",
       "tls": {
         "enabled": true,
-        "server_name": "www.firefox.com",
-        "insecure": true,
-        "alpn": [
-          "http/1.1"
-        ],
+        "server_name": "rAyAn-007.nAsTaRaN.DpDnS.OrG",
+        "insecure": false,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -23,9 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN",
+        "path": "/",
         "headers": {
-          "Host": "mitivpn--s3.global.ssl.fastly.net"
+          "Host": "rayan-007.nastaran.dpdns.org"
         }
       }
     },
@@ -34,14 +31,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
+        "🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 保加利亚 (Bulgaria) 01 - xiaohe"
+        "🇺🇸 美国 (United States) 01 (移动家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
