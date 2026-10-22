@@ -5,22 +5,21 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇻🇳 越南 (Vietnam) 01 - xiaohe",
-      "server": "funagfrdfs.alixxplay.com",
-      "server_port": 55688,
-      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
+      "server": "45.144.214.144",
+      "server_port": 8446,
+      "uuid": "633c1bb0-60d5-41fb-a9c4-11f408b264ec",
       "tls": {
         "enabled": true,
-        "server_name": "bilibili-vn.biliimg.com",
+        "server_name": "storage-p2.googleapis.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
-          "public_key": "KeV1nArisy7FO5DjqTSmn0hBnlNd38rzhbIMMpe-MBw",
-          "short_id": "a46bb5972cf50671"
+          "public_key": "7OwcalQiQ5RaMsYRjvtwTxZWS3sCpjOefcr3WYKFh04",
+          "short_id": "73da8baa63f8d537"
         }
       }
     },
@@ -29,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇻🇳 越南 (Vietnam) 01 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇻🇳 越南 (Vietnam) 01 - xiaohe"
+        "🇹🇷 土耳其 (Turkey) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
