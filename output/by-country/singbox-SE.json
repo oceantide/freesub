@@ -20,7 +20,19 @@
     {
       "type": "hysteria2",
       "tag": "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
-      "server": "50.7.38.243",
+      "server": "192.142.23.46",
+      "server_port": 443,
+      "password": "a0052f4f-4c63-0002-a16f-ab2d5d718cd3",
+      "tls": {
+        "enabled": true,
+        "server_name": "diffoscope.com",
+        "insecure": false
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇸🇪 瑞典 (Sweden) 03 - xiaohe",
+      "server": "promo.betust.net",
       "server_port": 443,
       "password": "d4ca9415f0eac7897472e1e5b86d2e96",
       "tls": {
@@ -31,7 +43,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 瑞典 (Sweden) 03 - xiaohe",
+      "tag": "🇸🇪 瑞典 (Sweden) 04 - xiaohe",
       "server": "31.172.65.4",
       "server_port": 8443,
       "uuid": "9c6e83fc-b755-4ad4-9b0a-14b610153d8f",
@@ -51,15 +63,24 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "🇸🇪 瑞典 (Sweden) 04 - xiaohe",
-      "server": "192.142.23.46",
+      "type": "vless",
+      "tag": "🇸🇪 瑞典 (Sweden) 05 - xiaohe",
+      "server": "s12.bsh-net.ru",
       "server_port": 443,
-      "password": "a0052f4f-4c63-0002-a16f-ab2d5d718cd3",
+      "uuid": "a0fa7e19-70ec-41e0-b0cc-bcc984d4201a",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "diffoscope.com",
-        "insecure": false
+        "server_name": "s12.bsh-net.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "QvT-t_h_AF2EAT4Ggh_a6pcCK3StY8G9WCXn6-dJbxk",
+          "short_id": "51079f144d661484"
+        }
       }
     },
     {
@@ -70,7 +91,8 @@
         "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 03 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 04 - xiaohe"
+        "🇸🇪 瑞典 (Sweden) 04 - xiaohe",
+        "🇸🇪 瑞典 (Sweden) 05 - xiaohe"
       ]
     },
     {
@@ -80,7 +102,8 @@
         "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 02 - xiaohe",
         "🇸🇪 瑞典 (Sweden) 03 - xiaohe",
-        "🇸🇪 瑞典 (Sweden) 04 - xiaohe"
+        "🇸🇪 瑞典 (Sweden) 04 - xiaohe",
+        "🇸🇪 瑞典 (Sweden) 05 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
