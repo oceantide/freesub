@@ -5,21 +5,22 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe",
-      "server": "109.248.170.119",
-      "server_port": 13447,
-      "uuid": "b573cefb-7bc7-4a42-b407-b8b534e66773",
+      "tag": "🇩🇰 丹麦 (Denmark) 01 - xiaohe",
+      "server": "135.136.33.134",
+      "server_port": 8443,
+      "uuid": "9a597d68-6688-4046-bf24-a5a541e115e0",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE",
-          "short_id": "83"
+          "public_key": "6FI4VM9WlQEGVjyCvLDQLz1jOkrzzhtfGl9eQTBn6HU",
+          "short_id": "f8d0271b4b5f9efc"
         }
       }
     },
@@ -28,14 +29,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe"
+        "🇩🇰 丹麦 (Denmark) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇿 哈萨克斯坦 (Kazakhstan) 01 - xiaohe"
+        "🇩🇰 丹麦 (Denmark) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
